@@ -1,5 +1,5 @@
 {
-  "name": "rekajs",
+  "name": "@rekamy/rekajs",
   "version": "0.0.1-alpha",
   "description": "SPA core element",
   "main": "src/index.js",
@@ -14,7 +14,6 @@
     "spa"
   ],
   "author": "Zahrin Azam",
-  "contributors": [],
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
