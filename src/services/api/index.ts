@@ -3,7 +3,11 @@ import axios from "axios";
 class Api {
 
     public env = process.env
-    public driver = axios
+    public driver: typeof axios
+
+    constructor(driver) {
+        this.driver = driver
+    }
 
     toFormData(obj: any) {
         var form_data = new FormData();
@@ -177,5 +181,6 @@ class Api {
     }
 }
 
-const api = new Api();
-export { api };
+const api = new Api(axios);
+
+export { api, Api };

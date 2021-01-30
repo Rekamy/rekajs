@@ -33,3 +33,12 @@ if( auth.loggedIn() ) {
 * rtc (Real-time communicator)
 * widget (alert, notifier)
 * vue-component
+
+## Todo
+* store
+* auth
+* bloc
+* rtc (Real-time communicator)
+* widget (alert, notifier)
+* vue-component
+* handle another api driver
