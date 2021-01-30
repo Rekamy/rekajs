@@ -1,5 +1,5 @@
 {
-  "name": "@rekamy/rekajs",
+  "name": "rekajs",
   "version": "0.0.1-alpha",
   "description": "SPA core element",
   "main": "src/index.js",
