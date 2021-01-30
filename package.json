@@ -1,6 +1,6 @@
 {
   "name": "rekajs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "SPA core element",
   "main": "src/index.js",
   "scripts": {
